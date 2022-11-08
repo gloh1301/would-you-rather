@@ -27,6 +27,7 @@ export default {
       choice: ''
     }
   },
+  // emits choice to parent
     methods: {
       choiceMade() {
         this.$emit('answer-changed', this.choice)
